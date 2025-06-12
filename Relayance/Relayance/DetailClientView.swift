@@ -10,7 +10,8 @@ import SwiftUI
 struct DetailClientView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var client: Client
-    
+    @ObservedObject var viewModel: ClientsViewModel
+
     var body: some View {
         VStack {
             Image(systemName: "person.circle")
@@ -31,8 +32,8 @@ struct DetailClientView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button("Supprimer") {
-                    // suppression
-                    self.presentationMode.wrappedValue.dismiss()
+                    viewModel.deleteClient(client)
+                    presentationMode.wrappedValue.dismiss()
                 }
                 .foregroundStyle(.red)
                 .bold()
@@ -42,5 +43,5 @@ struct DetailClientView: View {
 }
 
 #Preview {
-    DetailClientView(client: Client(nom: "Tata", email: "tata@email", dateCreationString: "20:32 Wed, 30 Oct 2019"))
+    DetailClientView(client: Client(nom: "Tata", email: "tata@email", dateCreationString: "2023-06-10T00:00:00Z"), viewModel: ClientsViewModel())
 }

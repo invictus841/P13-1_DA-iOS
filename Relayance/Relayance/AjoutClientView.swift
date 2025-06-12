@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct AjoutClientView: View {
+    @ObservedObject var viewModel: ClientsViewModel
     @Binding var dismissModal: Bool
     @State var nom: String = ""
     @State var email: String = ""
-    
+    @State var showError = false
+
     var body: some View {
         VStack {
             Text("Ajouter un nouveau client")
@@ -23,9 +25,19 @@ struct AjoutClientView: View {
                 .font(.title2)
             TextField("Email", text: $email)
                 .font(.title2)
+                .keyboardType(.emailAddress)
+                .autocapitalization(.none)
+            if showError {
+                Text("Adresse email invalide.")
+                    .foregroundColor(.red)
+            }
             Button("Ajouter") {
-                //Ajout d'un client
-                dismissModal.toggle()
+                let success = viewModel.addClient(nom: nom, email: email)
+                if success {
+                    dismissModal.toggle()
+                } else {
+                    showError = true
+                }
             }
             .padding(.horizontal, 50)
             .padding(.vertical)
@@ -41,5 +53,6 @@ struct AjoutClientView: View {
 }
 
 #Preview {
-    AjoutClientView(dismissModal: .constant(false))
+    AjoutClientView(viewModel: ClientsViewModel(), dismissModal: .constant(false))
 }
+
