@@ -22,6 +22,7 @@
 		422740FD2C3ED18D00E7522C /* AjoutClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422740FC2C3ED18D00E7522C /* AjoutClientView.swift */; };
 		AC0F2ED32DFB13C6004E4184 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */; };
 		AC0F2ED52DFB251D004E4184 /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */; };
+		AC0F2ED72DFB2A97004E4184 /* bdd_scenarios.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		422740FC2C3ED18D00E7522C /* AjoutClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutClientView.swift; sourceTree = "<group>"; };
 		AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
+		AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = bdd_scenarios.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				422740FA2C3ED0EE00E7522C /* DetailClientView.swift */,
 				422740FC2C3ED18D00E7522C /* AjoutClientView.swift */,
 				AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */,
+				AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */,
 			);
 			path = Relayance;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				422740782C3BF4DD00E7522C /* Preview Assets.xcassets in Resources */,
 				422740F92C3ED02400E7522C /* Source.json in Resources */,
 				422740752C3BF4DD00E7522C /* Assets.xcassets in Resources */,
+				AC0F2ED72DFB2A97004E4184 /* bdd_scenarios.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
