@@ -22,7 +22,6 @@
 		422740FD2C3ED18D00E7522C /* AjoutClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422740FC2C3ED18D00E7522C /* AjoutClientView.swift */; };
 		AC0F2ED32DFB13C6004E4184 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */; };
 		AC0F2ED52DFB251D004E4184 /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */; };
-		AC0F2ED72DFB2A97004E4184 /* bdd_scenarios.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */; };
 		AC0F2EDC2DFB30A9004E4184 /* ClientIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2EDB2DFB30A9004E4184 /* ClientIntegrationTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +61,6 @@
 		422740FC2C3ED18D00E7522C /* AjoutClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutClientView.swift; sourceTree = "<group>"; };
 		AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
-		AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = bdd_scenarios.txt; sourceTree = "<group>"; };
 		AC0F2EDB2DFB30A9004E4184 /* ClientIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientIntegrationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +120,6 @@
 				422740742C3BF4DD00E7522C /* Assets.xcassets */,
 				422740762C3BF4DD00E7522C /* Preview Content */,
 				422740F82C3ED02400E7522C /* Source.json */,
-				AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */,
 			);
 			path = Relayance;
 			sourceTree = "<group>";
@@ -288,7 +285,6 @@
 				422740782C3BF4DD00E7522C /* Preview Assets.xcassets in Resources */,
 				422740F92C3ED02400E7522C /* Source.json in Resources */,
 				422740752C3BF4DD00E7522C /* Assets.xcassets in Resources */,
-				AC0F2ED72DFB2A97004E4184 /* bdd_scenarios.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
