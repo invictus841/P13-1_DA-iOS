@@ -23,6 +23,7 @@
 		AC0F2ED32DFB13C6004E4184 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */; };
 		AC0F2ED52DFB251D004E4184 /* ClientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */; };
 		AC0F2ED72DFB2A97004E4184 /* bdd_scenarios.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */; };
+		AC0F2EDC2DFB30A9004E4184 /* ClientIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F2EDB2DFB30A9004E4184 /* ClientIntegrationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		AC0F2ED42DFB251D004E4184 /* ClientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewModel.swift; sourceTree = "<group>"; };
 		AC0F2ED62DFB2A97004E4184 /* bdd_scenarios.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = bdd_scenarios.txt; sourceTree = "<group>"; };
+		AC0F2EDB2DFB30A9004E4184 /* ClientIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientIntegrationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				422740812C3BF4DD00E7522C /* RelayanceTests.swift */,
 				AC0F2ED22DFB13C6004E4184 /* ClientTests.swift */,
+				AC0F2EDB2DFB30A9004E4184 /* ClientIntegrationTests.swift */,
 			);
 			path = RelayanceTests;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0F2EDC2DFB30A9004E4184 /* ClientIntegrationTests.swift in Sources */,
 				AC0F2ED32DFB13C6004E4184 /* ClientTests.swift in Sources */,
 				422740822C3BF4DD00E7522C /* RelayanceTests.swift in Sources */,
 			);
